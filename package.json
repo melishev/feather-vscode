@@ -1,0 +1,19 @@
+{
+  "name": "id-extension",
+  "displayName": "name-extension",
+  "description": "description-extension",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "scripts": {
+    "build": "node --experimental-json-modules scripts/build.mjs"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.0.35",
+    "feather-icons": "^4.28.0",
+    "fs-extra": "^10.0.0",
+    "svgo": "^2.8.0",
+    "webfonts-generator": "^0.4.0"
+  }
+}
