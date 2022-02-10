@@ -7,9 +7,10 @@
 <p align="center"><a href="https://github.com/feathericons">Feather</a> Visual Studio Code <a href="https://code.visualstudio.com/api/extension-guides/product-icon-theme">product icon theme</a></p>
 
 
-<!-- <p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/antfu.icons-carbon.svg?color=c19999&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
-</p> -->
+<p align="center">
+<a href="https://marketplace.visualstudio.com/items?itemName=melishev.feather-vscode" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/melishev.feather-vscode.svg?color=0066FF&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+<a href="https://github.com/semantic-release/semantic-release" target="__blank"><img src="https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release" alt="Semantic Release: Angular" /></a>
+</p>
 
 <p align="center">
 <img src="https://github.com/melishev/feather-vscode/blob/master/.github/assets/preview.png?raw=true"/>
