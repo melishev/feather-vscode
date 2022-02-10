@@ -10,17 +10,17 @@
 			"type": "extensionHost",
 			"request": "launch",
 			"args": [
-				"--extensionDevelopmentPath=${workspaceFolder}"
-			]
+				"--extensionDevelopmentPath=${workspaceFolder}/build"
+			],
 		},
 		{
 			"name": "Extension Tests",
 			"type": "extensionHost",
 			"request": "launch",
 			"args": [
-				"--extensionDevelopmentPath=${workspaceFolder}",
-				"--extensionTestsPath=${workspaceFolder}/test/suite/index"
-			]
+				"--extensionDevelopmentPath=${workspaceFolder}/build",
+				"--extensionTestsPath=${workspaceFolder}/build"
+			],
 		}
 	]
 }
