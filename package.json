@@ -2,8 +2,9 @@
   "name": "feather-vscode",
   "displayName": "Feather Product Icons",
   "description": "Feather Product Icons for VS Code",
-  "version": "0.0.0-development",
-  "icon": "icon.png",
+  "publisher": "melishev",
+  "version": "1.0.0",
+  "icon": ".github/assets/icon.png",
   "categories": [
     "Themes"
   ],
@@ -17,6 +18,8 @@
     "build": "node --experimental-json-modules src/build.mjs"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -24,7 +27,8 @@
     "feather-icons": "^4.28.0",
     "fs-extra": "^10.0.0",
     "oslllo-svg-fixer": "^2.0.1",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^19.0.2",
+    "semantic-release-vsce": "^5.0.6"
   },
   "contributes": {
     "productIconThemes": [
