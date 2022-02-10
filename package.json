@@ -23,7 +23,8 @@
     "fantasticon": "1.2.2",
     "feather-icons": "^4.28.0",
     "fs-extra": "^10.0.0",
-    "oslllo-svg-fixer": "^2.0.1"
+    "oslllo-svg-fixer": "^2.0.1",
+    "semantic-release": "^19.0.2"
   },
   "contributes": {
     "productIconThemes": [
