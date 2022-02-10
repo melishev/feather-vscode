@@ -5,6 +5,4 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
-    "liveServer.settings.port": 5501,
-    "svg.preview.background": "editor",
   }
