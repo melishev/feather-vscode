@@ -49,7 +49,7 @@ export default {
   // 'clippy': '',
   clock: 'clock',
   clone: 'copy',
-  close: 'x',
+  // close: 'x',
   // 'close-all': '',
   // 'close-dirty': '',
   cloud: 'cloud',
