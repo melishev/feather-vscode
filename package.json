@@ -4,6 +4,7 @@
   "description": "Feather Product Icons for VS Code",
   "publisher": "melishev",
   "version": "1.0.0",
+  "type": "module",
   "icon": ".github/assets/icon.png",
   "categories": [
     "Themes"
@@ -15,12 +16,11 @@
     "vscode": "^1.64.0"
   },
   "scripts": {
-    "build": "node --experimental-json-modules src/build.mjs"
+    "build": "node --experimental-json-modules src/build.js"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "fantasticon": "2.0.0",
@@ -67,10 +67,5 @@
   "extensionKind": [
     "ui"
   ],
-  "license": "MIT",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  }
+  "license": "MIT"
 }
