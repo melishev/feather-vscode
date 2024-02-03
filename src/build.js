@@ -1,7 +1,7 @@
 import fs from 'fs-extra';
 import { execSync } from 'child_process';
-import Fantasticon from 'fantasticon';
-import icons from './icons.mjs';
+import { FontAssetType, generateFonts } from 'fantasticon';
+import icons from './icons.js';
 
 const name = 'feather-icons';
 
@@ -42,10 +42,10 @@ fs.writeJSONSync(
 
 execSync('npx oslllo-svg-fixer -s icons -d icons --sp', { stdio: 'inherit' });
 
-Fantasticon.generateFonts({
+generateFonts({
   name,
   inputDir: './icons',
   outputDir: './dist',
-  fontTypes: ['woff'],
+  fontTypes: [FontAssetType.WOFF],
   assetTypes: []
 });
